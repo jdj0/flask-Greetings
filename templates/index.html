@@ -8,7 +8,7 @@
 <body>
     <img src="https://raw.githubusercontent.com/MariyaSha/SimpleGreetingApp/main/logo.png">
     <br>
-    <form action="greet" method="post">
+    <form action="greet" method="POST">
         {% for message in get_flashed_messages() %}
              <p>{{ message }}</p>
          {% endfor %}
